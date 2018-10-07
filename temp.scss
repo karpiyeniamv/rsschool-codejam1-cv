@@ -1,0 +1,150 @@
+
+
+
+@media (min-width: 1025px) {
+
+  .introduceMyself {
+    display: flex;
+    width: 100%;
+    background-color: #082841;
+
+    height: 672px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+  }
+  .portrImg {
+    height: 100%;
+  }
+
+  #developer {
+    font-size: 24px;
+    color: white;
+    font-family: Helvetica-Bold;
+    margin-top: 65px;
+  }
+
+  #name {
+    font-family: Helvetica-Bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 11px;
+  }
+
+  #developerText{
+    overflow: hidden;
+    font-family: Georgia;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 544px;
+    margin-top: 234px;
+
+  }
+
+  .flexItem {
+    width: auto;
+    margin-left: 96px;
+  }
+
+
+  /* --------------------------------------------------------------------------------------------------------*/
+
+
+  .expectation {
+    width: 100%;
+    background-color: white;
+    height: auto;
+  }
+  .expText{
+    margin-top: 106px;
+    margin-left: 248px;
+    font-family: Helvetica-Bold;
+    font-size: 40px;
+    color: #000000;
+  }
+
+  .expPuzzle {
+    display: flex;
+    margin-top: 38px;
+    margin-left: 248px;
+    width: 944px;
+    height: 448px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .expPuzzleItem{
+    width: auto;
+    background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  #expPuzzle1 {
+    width: 58%;
+    height: 46%;
+    order: 1;
+  }
+  #expPuzzle2 {
+
+    width: 40%;
+    height: 46%;
+    order: 2;
+  }
+  #expPuzzle3 {
+
+    width: 40%;
+    height: 46%;
+    order: 3;
+  }
+  #expPuzzle4 {
+
+    width: 58%;
+    height: 46%;
+    order: 4;
+
+  }
+
+  .expTextStrong {
+
+    font-family: Helvetica-Bold;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 32px;
+  }
+
+  .expTextP {
+    margin-left: 32px ;
+    margin-top: 64px;
+    overflow: hidden;
+    font-family: Georgia;
+    font-size: 16px;
+    color: #000000;
+
+  }
+
+  #expPuzzle1 .expTextP {
+    width: 432px ;
+  }
+  #expPuzzle2 .expTextP {
+    width: 304px ;
+  }
+  #expPuzzle3 .expTextP {
+    width: 304px ;
+  }
+  #expPuzzle4 .expTextP {
+    width: 432px ;
+  }
+
+  /*------------------------------------------------------------------------------------------------*/
+
+  .projText{
+    margin-top: 129px;
+    margin-left: 248px;
+    font-family: Helvetica-Bold;
+    font-size: 40px;
+    color: #000000;
+  }
+}
