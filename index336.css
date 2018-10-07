@@ -1,0 +1,448 @@
+
+@media (max-width: 336px) {
+
+    .introduceMyself {
+
+        display: flex;
+        width: 100%;
+        background-color: #082841;
+        height: 648px;
+        flex-direction: column;
+    }
+    .portrImg {
+        height: 144px;
+        border-radius: 50%;
+    }
+
+    #divPicture {
+        order: 3;
+        align-self: center;
+        margin-top: 21px;
+    }
+
+    #developer {
+        font-size: 16px;
+        color: white;
+        font-family: Helvetica-Bold;
+        order: 1;
+        margin-top: 33px;
+    }
+
+    #name {
+        font-family: Helvetica-Bold;
+        font-size: 32px;
+        color: #FFFFFF;
+        order: 2;
+        margin-top: 15px;
+
+    }
+
+    #developerText{
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 305px;
+        order: 4;
+        text-align:  center;
+        margin-top: 30px;
+
+    }
+
+    .flexItem {
+        align-self: center;
+    }
+
+    /* --------------------------------------------------------------------------------------------------------*/
+
+
+    .expectation {
+        width: 100%;
+        background-color: white;
+        height: auto;
+    }
+
+    .expDivStrong {
+        margin-top: 25px;
+    }
+
+    .expText{
+        margin-top: 91px;
+        font-family: Helvetica-Bold;
+        font-size: 32px;
+        color: #000000;
+        margin-left: 16px;
+    }
+
+      .expPuzzleItem{
+        width: auto;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    #expPuzzle1 {
+        width: 304px;
+        height: 304px;
+        order: 1;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+
+    #svgDivExp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+
+    #svg1 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #svg2 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #svg3 {
+        height: 30px;
+        width: 30px;
+    }
+    #svg4 {
+        height: 30px;
+        width: 30px;
+    }
+
+
+    #expPuzzle2 {
+
+        display: none;
+    }
+    #expPuzzle3 {
+
+        display: none;
+    }
+    #expPuzzle4 {
+
+        display: none;
+    }
+
+    .expTextStrong {
+
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+        margin-left: 24px;
+    }
+
+    .expTextP {
+        margin-left: 24px ;
+        margin-top: 24px;
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+
+    }
+
+    #expPuzzle1 .expTextP {
+        width: 256px ;
+    }
+
+    /*------------------------------------------------------------------------------------------------*/
+
+    .projText{
+        margin-top: 60px;
+        margin-left: 16px;
+        font-family: Helvetica-Bold;
+        font-size: 32px;
+        color: #000000;
+    }
+
+    .prjItems1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        /*height: 700px;*/
+    }
+
+    .prjItem {
+        width: auto;
+    }
+
+    #prjItem1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 3;
+    }
+
+    #picturePrjItem1 {
+        margin-top: 15px;
+        margin-left: 16px;
+        width: 304px;
+        height: 216px;
+        background-image: url(img/1.jpg);
+    }
+
+    #svgPrjItem1 {
+        margin-top: 20px;
+        margin-left: 130px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #svg1 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #svg2 {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #svg3 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #prjItem2 {
+        margin-left: 16px;
+        margin-top: 38px;
+        order: 1;
+        width: 304px;
+
+    }
+
+    #prjItem2 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem2 p {
+
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem3 {
+        width: 304px;
+        height: 147px;
+        margin-left: 16px;
+        margin-top: 0px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        order: 2;
+    }
+
+    .prjItems2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    #prjItem12 {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #picturePrjItem12 {
+        margin-top: 15px;
+        margin-left: 16px;
+        width: 304px;
+        height: 216px;
+        background-image: url(img/2.jpg);
+    }
+
+    #svgPrjItem12 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    #svg4 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #prjItem22 {
+        margin-top: 38px;
+        order: 1;
+        width: 304px;
+
+        margin-left: 16px;
+    }
+
+    #prjItem22 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem22 p {
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem32 {
+        width: 304px;
+        height: 147px;
+        margin-left: 16px;
+        margin-top: 16px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        order: 2;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------*/
+    .contactsMain {
+        margin-top: 80px;
+        width: 100%;
+        height: 960px;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        padding-top: 33px;;
+    }
+
+    .contactsMainDiv {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /*justify-content: space-around;*/
+
+    }
+
+    .contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*justify-content: space-around;*/
+    }
+
+    #linksP {
+        display: none;
+    }
+
+    #contactsItem1 {
+
+        margin-left: 16px;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    #contactsItem2 {
+        margin-left: 16px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+        width: 384px;
+        order: 2;
+    }
+
+    #contactsItem3 {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 16px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 32px;
+        order: 1;
+    }
+
+    #contactsItem4 {
+        margin-top: 0px;
+        margin-left: 16px;
+    }
+
+    #svgText {
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 24px;
+
+    }
+
+    #sendButton {
+
+        background: #DD3E18;
+        border-radius: 4px;
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 24px;
+        width: 300px;
+        height: 49px;
+        margin-top: 32px;
+
+    }
+
+    input[name=name] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 300px;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    input[name=mail] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 300px;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    textarea[name=mess] {
+        background: white;
+        border-radius: 4px;
+        width: 300px;
+        height: 192px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+
+    }
+
+    .divRect {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        opacity: 0.1;
+        background-color: #000000;
+        border-radius: 2px;
+        margin-right: 12px;
+    }
+
+
+}
