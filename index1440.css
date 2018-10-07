@@ -1,0 +1,397 @@
+@media (min-width: 1025px) {
+
+    .introduceMyself {
+        display: flex;
+        width: 100%;
+        background-color: #082841;
+        height: 672px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .portrImg {
+        height: 100%;
+    }
+
+    #developer {
+        font-size: 24px;
+        color: white;
+        font-family: Helvetica Bold;
+        margin-top: 4%;
+    }
+
+    #name {
+        font-family: Helvetica Bold;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+
+    #developerText {
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 40%;
+        margin-top: 15%;
+    }
+    .flexItem {
+        width: auto;
+        margin-left: 7%;
+    }
+
+    /* --------------------------------------------------------------------------------------------------------*/
+    .expectation {
+        width: 100%;
+        background-color: white;
+        height: auto;
+    }
+
+    .expText {
+        margin-top: 106px;
+        margin-left: 17.6%;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    .expDivStrong {
+        margin-top: 25px;
+    }
+
+
+    .expPuzzle {
+        display: flex;
+        margin-top: 38px;
+        margin-left: 17.6%;
+        width: 65%;
+        height: 448px;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .expPuzzleItem {
+        width: auto;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    #expPuzzle1 {
+        width: 58%;
+        height: 46%;
+        order: 1;
+    }
+
+    #svgDivExp{
+        display: none;
+    }
+    #expPuzzle2 {
+        width: 40%;
+        height: 46%;
+        order: 2;
+    }
+
+    #expPuzzle3 {
+        width: 40%;
+        height: 46%;
+        order: 3;
+    }
+
+    #expPuzzle4 {
+        width: 58%;
+        height: 46%;
+        order: 4;
+    }
+
+    .expTextStrong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+        margin-left: 32px;
+    }
+
+    .expTextP {
+        margin-left: 32px;
+        margin-top: 10%;
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        width: 80%;
+    }
+
+    /*------------------------------------------------------------------------------------------------*/
+    .projText {
+        margin-top: 129px;
+        margin-left: 17.6%;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    .prjItems1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+        /*justify-content: space-around;*/
+    }
+
+
+    #prjItem1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    #picturePrjItem1 {
+        margin-top: 63px;
+        margin-left: 29%;
+        width: 65%;
+        height: 384px;
+        background-image: url(img/1.jpg);
+    }
+
+    #svgPrjItem1 {
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    #svg1 {
+        height: 20px;
+        width: 20px;
+        margin-top: 1100%;
+        margin-bottom: 30%;
+    }
+
+    #svg2 {
+
+        height: 20px;
+        width:20px;
+        margin-bottom: 30%;
+    }
+
+    #svg3 {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 30%;
+    }
+
+    #prjItem2 {
+        margin-top: 63px;
+        width: 37%;
+    }
+
+    #prjItem2 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem2 p {
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem3 {
+        width: 22%;
+        height: 147px;
+        margin-top: 180px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+    }
+
+    .prjItems2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+    }
+
+    #prjItem12 {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    #picturePrjItem12 {
+        margin-top: 63px;
+        width: 65%;
+        height: 384px;
+        background-image: url(img/2.jpg);
+        order: 2;
+    }
+
+    #svgPrjItem12 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 1;
+    }
+
+    #svg4 {
+        height: 20px;
+        width: 20px;
+    }
+
+    #prjItem22 {
+        margin-left: 17.6%;
+        margin-top: 63px;
+        order: 1;
+        width: 25%;
+    }
+
+    #prjItem22 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem22 p {
+
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem32 {
+        width: 22%;
+        height: 147px;
+        margin-left: 17.6%;
+        margin-top: 180px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        order: 2;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------*/
+    .contactsMain {
+        width: 100%;
+        height: 795px;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        padding-top: 81px;;
+    }
+
+    .contactsMainDiv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        /*justify-content: space-around;*/
+
+    }
+
+    #contactsItem1 {
+        margin-left: 17.6%;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        /*justify-content: space-around;*/
+    }
+    #contactsItem2 {
+        margin-top: 61px;
+        margin-left: 35%;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+        width: 42%;
+    }
+
+    #contactsItem3 {
+        width: 28%;
+        margin-left: 35%;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 32px;
+    }
+
+    #contactsItem4 {
+        margin-top: 61px;
+        width: 50%;
+    }
+
+    #svgText {
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 24px;
+    }
+
+    #sendButton {
+        background: #DD3E18;
+        border-radius: 4px;
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 24px;
+        width: 77%;
+        height: 49px;
+        margin-top: 32px;
+    }
+
+    input[name=name] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 75.6%;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    input[name=mail] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 75.6%;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    textarea[name=mess] {
+        background: white;
+        border-radius: 4px;
+        width: 75.6%;
+        height: 192px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    .divRect {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        opacity: 0.1;
+        background-color: #000000;
+        border-radius: 2px;
+        margin-right: 12px;
+    }
+}

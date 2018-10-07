@@ -1,0 +1,394 @@
+@media (min-width: 769px) and (max-width: 1024px ) {
+
+    .introduceMyself {
+        display: flex;
+        width: 100%;
+        background-color: #082841;
+        height: 768px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .portrImg {
+        height: 100%;
+    }
+
+    #developer {
+        font-size: 24px;
+        color: white;
+        font-family: Helvetica-Bold;
+        margin-top: 65px;
+    }
+
+    #name {
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #FFFFFF;
+        margin-top: 11px;
+    }
+
+    #developerText{
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 464px;
+        margin-top: 234px;
+    }
+
+    .flexItem {
+        width: auto;
+        margin-left: 5%;
+    }
+
+    /* --------------------------------------------------------------------------------------------------------*/
+
+    .expectation {
+        width: 100%;
+        background-color: white;
+        height: auto;
+    }
+
+    .expDivStrong {
+        margin-top: 25px;
+    }
+
+    .expText{
+        margin-top: 106px;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+        margin-left: 3.9%;
+    }
+
+    .expPuzzle {
+        display: flex;
+        margin-left: 3.9%;
+        margin-top: 38px;
+        width: 92.1875%;
+        height: 448px;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .expPuzzleItem{
+        width: auto;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        border-radius: 4px;
+        overflow: hidden;
+        height: 46%;
+    }
+
+    #expPuzzle1 {
+        width: 58%;
+        order: 1;
+    }
+    #svgDivExp {
+        display: none;
+    }
+
+    #expPuzzle2 {
+        width: 40%;
+        order: 2;
+    }
+    #expPuzzle3 {
+        width: 40%;
+        order: 3;
+    }
+    #expPuzzle4 {
+        width: 58%;
+        order: 4;
+    }
+
+    .expTextStrong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+        margin-left: 32px;
+    }
+    .expTextP {
+        margin-left: 32px ;
+        margin-top: 10%;
+        overflow: hidden;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        width: 80%;
+    }
+
+    /*------------------------------------------------------------------------------------------------*/
+
+    .projText{
+        margin-top: 129px;
+        margin-left: 3.9%;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    .prjItems1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+    }
+
+    .prjItem {
+        width: auto;
+    }
+
+    #prjItem1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #picturePrjItem1 {
+        margin-top: 63px;
+        margin-left: 40px;
+        width: 544px;
+        height: 384px;
+        background-image: url(img/1.jpg);
+    }
+
+    #svgPrjItem1 {
+        margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #svg1 {
+        height: 30px;
+        width: 30px;
+        margin-top: 200px;
+    }
+
+    #svg2 {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #svg3 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #prjItem2 {
+        margin-left: 20px;
+        margin-top: 63px;
+    }
+
+    #prjItem2 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem2 p {
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem3 {
+        width: 304px;
+        height: 147px;
+        margin-left: 20px;
+        margin-top: 180px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+    }
+
+    .prjItems2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+    }
+
+    #prjItem12 {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #picturePrjItem12 {
+        margin-top: 63px;
+        margin-left: 0px;
+        width: 544px;
+        height: 384px;
+        background-image: url(img/2.jpg);
+        order:2;
+    }
+
+    #svgPrjItem12 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order:1;
+    }
+
+    #svg4 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #prjItem22 {
+        margin-left: 40px;
+        margin-top: 63px;
+        order: 1;
+    }
+
+    #prjItem22 strong {
+        font-family: Helvetica-Bold;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #prjItem22 p {
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+    }
+
+    #prjItem32 {
+        width: 304px;
+        height: 147px;
+        margin-left: 40px;
+        margin-top: 180px;
+        opacity: 0.8;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        order: 2;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------*/
+
+    .contactsMain {
+        width: 100%;
+        height: 795px;
+        background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+        padding-top: 81px;;
+    }
+
+
+    .contactsMainDiv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /*justify-content: space-around;*/
+    }
+
+    #contactsItem1 {
+
+        margin-left: 40px;
+        font-family: Helvetica-Bold;
+        font-size: 40px;
+        color: #000000;
+    }
+
+    #contactsItem2 {
+
+        margin-top: 61px;
+        margin-left: 40px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+        width: 304px;
+    }
+
+    #contactsItem3 {
+        width: 200px;
+        margin-left: 40px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 32px;
+    }
+
+    #contactsItem4 {
+        margin-top: 61px;
+        margin-left: 96px;
+    }
+
+    #svgText {
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #DD3E18;
+        line-height: 24px;
+
+    }
+
+    #sendButton {
+
+        background: #DD3E18;
+        border-radius: 4px;
+        font-family: Helvetica-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 24px;
+        width: 544px;
+        height: 49px;
+        margin-top: 32px;
+
+    }
+
+    input[name=name] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 544px;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    input[name=mail] {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+        width: 544px;
+        height: 48px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    textarea[name=mess] {
+        background: white;
+        border-radius: 4px;
+        width: 544px;
+        height: 192px;
+        font-family: Georgia;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    }
+
+    .divRect {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        opacity: 0.1;
+        background-color: #000000;
+        border-radius: 2px;
+        margin-right: 12px;
+    }}
